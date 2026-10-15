@@ -543,6 +543,36 @@ body {
     margin-top: auto;
 }
 
+.project-article-menu {
+    width: 100%;
+}
+
+.project-article-menu summary {
+    display: block;
+    width: fit-content;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.project-article-menu summary::-webkit-details-marker {
+    display: none;
+}
+
+.project-article-menu[open] summary {
+    margin-bottom: var(--spacing-md);
+}
+
+.project-article-links {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.project-article-links .btn {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 /* ============================================
    BLOG/ARTICLES SECTION
    ============================================ */
